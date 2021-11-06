@@ -1,0 +1,83 @@
+.main header{
+    font-weight: 700
+}
+
+.with-font-style{
+    font-style: italic;
+}
+
+:root{
+    --main font: 'Roboto';
+    --secondary font: 'Open Sans';
+    --main color: #00ffff;
+}
+
+.font-family{
+'Roboto', 'Open Sans'
+}
+
+.body{
+    font-family: var(--main-font);
+    color: black;
+}
+
+/*======OUR OFFERS======*/
+
+.secondary header{
+    font-family: var(secondary font);
+    font-weight: 700;
+    font size: 40px;
+}
+
+.modal button{
+    width: 164px;
+    border: 1 px solid var(--main color);
+    border-radius: 25px;
+    font-size: 11px;
+    line-height: 1,455;
+    text-align: center;
+    color:black;
+}
+
+.container-our-offers{
+    display: inline-flex;
+    align-items: center;
+    min-height: 100px;
+    background-color:black;
+    width: 1200px;
+}
+.flex-item{
+    padding: 94px;
+    background-color: white;
+    border: 1px solid silver
+}
+
+
+.list .secondary header{
+    margin-bottom: 42px
+}
+
+.list{
+    width: 50%
+}
+
+.list-item-Loki,
+.list-item-Koki{
+    font-weight: 600 ;
+    font-size: 12;
+    line-height: 1,667;
+    letter-spacing: 0,02em;
+    color:white
+}
+/*====== END OUR OFFERS======*/
+
+
+/*======NAVIGATION======*/
+
+.adress-navigation:hover,
+.adress-navigation:focus,
+.contacts-navigation:hover,
+.contacts-navigation:focus{
+color: var(--main-color);
+}
+/*======END NAVIGATION======*/
